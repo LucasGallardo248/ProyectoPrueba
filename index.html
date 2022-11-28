@@ -17,8 +17,9 @@
     <header>
         <div class="head">
             <div class="head-list">
-                <i class="bi bi-list"></i>
+                <button class="btn_nav" id="btn_nav"><i class="bi bi-list"></i></button>
             </div>
+           
             <div class="head-tittle">
                 <h1>VENEX</h1>
             </div>
@@ -30,6 +31,20 @@
         </div>
     </header>
     <main>
+        <div id="navbar-mbl" class="navbar-mld">
+            <ul>
+                <li>INGRESA A MI USUARIO</li>
+                <li>SEGUÍ TU COMPRA</li>
+                <li>CENTRO DE AYUDA</li>
+                <li>RETIRA TU COMPRA</li>
+                <li> ARMA TU PC</li>
+                <div class="divisor-navbar"></div>
+            </ul>
+
+        </div>
+        <div>
+            <a href="" class="wsp-float"><i class="w-20 bi bi-whatsapp fa-sm"></i></a>
+        </div>
 
     </main>
     <footer>
@@ -59,10 +74,12 @@
                 <div> 0810-555-8892</div>
                 <div> consultas@venex.com.ar</div>
                 <label>WhatsApp +54 11 2040-0949</label>
-                <div>Lun. a Vie. de 9 a 18h. Sab de 10 a 14h.</div>
+                <p>Lun. a Vie. de 9 a 18h. Sab de 10 a 14h.</p>
             </div>
             <div class="footer-horario">
-                <div>VENEX PICKUP POINT </div>
+                <h6>VENEX PICKUP POINT </h6>
+                <p>Lun. a Vie. de 10 a 18h.</p>
+
             </div>
         </div>
         <div class="footer-contact">
@@ -75,12 +92,16 @@
             <div class="footer-contact__input">
                 <div class="footer-contact__form">
                     <input type="email" placeholder="direccion de email">
-                   <button ><i class="bi bi-arrow-right-short"></i></button>
-
+                    <button><i class="bi bi-arrow-right-short"></i></button>
                 </div>
             </div>
             <div class="footer-redes">
-                <div class="footer-redes__icons"> <i class="bi bi-facebook"></i> </div>
+                <div class="footer-redes__icons"> <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24"
+                        height="24" viewBox="0 0 24 24">
+                        <path
+                            d="M17.525,9H14V7c0-1.032,0.084-1.682,1.563-1.682h1.868v-3.18C16.522,2.044,15.608,1.998,14.693,2 C11.98,2,10,3.657,10,6.699V9H7v4l3-0.001V22h4v-9.003l3.066-0.001L17.525,9z">
+                        </path>
+                    </svg> </div>
                 <div class="footer-redes__icons"> <i class="bi bi-instagram"></i> </div>
                 <div class="footer-redes__icons"> <i class="bi bi-youtube"></i> </div>
 
@@ -88,6 +109,7 @@
         </div>
 
     </footer>
+    <script src="./script/scripts.js"></script>
 </body>
 
 </html>

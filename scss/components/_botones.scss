@@ -1,0 +1,19 @@
+.wsp-float{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    right: 0;
+    bottom: 0;
+    width: 50px;
+    position: fixed;
+    height: 50px;
+    background-color: $var-btn-color;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+.btn_nav{
+    padding: 0.3rem;
+    border: none;
+    background-color: transparent;
+}

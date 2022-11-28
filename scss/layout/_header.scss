@@ -1,28 +1,78 @@
-.head{
+header {
+    position: sticky;
+    top: 0;
+}
+.head {
     width: 100%;
     height: 50px;
     align-items: center;
     display: flex;
     background-color: $var-primary--color;
-    &-list{
+   
+    &-list {
         display: flex;
         justify-content: center;
         width: 20%;
-        & i{
+
+        & i {
             color: $var-btn-color;
+        }
     }
-    }
-    &-tittle{
+
+    &-tittle {
         font-size: 0.7rem;
         font-weight: bold;
         display: flex;
         color: white;
         width: 40%;
     }
-    &-menu{
+
+    &-menu {
         display: flex;
         color: grey;
         justify-content: space-around;
         width: 40%;
     }
+}
+
+.navbar-mld {
+    display: none;
+    width: 75%;
+    height: 100%;
+    position: fixed;
+    animation-name: girar;
+    animation-duration: .7s;
+    background-color: $var-bg-sec ;
+    transition: .5s;
+    overflow: scroll;
+    & ul {
+        padding: 10px;
+        height: 100%;
+    }
+
+    & ul li {
+        padding: 10px;
+        list-style: none;
+
+        & a {
+            color: $var-bg-sec;
+        }
+    }
+}
+
+@keyframes girar {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 75%;
+    }
+
+}
+
+.divisor-navbar {
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 5px 0px;
 }
